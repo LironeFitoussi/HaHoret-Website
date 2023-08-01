@@ -82,20 +82,56 @@ section.galery {
 .product-desc {
     display: none;
     flex-direction: column;
+    justify-content: space-around;
     position: absolute;
     top: 0;
     direction: rtl;
-    padding: 2rem;
-    height: 100%;
+    padding: 1rem;
+    height: -webkit-fill-available;
+    color: #fff;
+    background-color: #6668;
 }
 
-.gl-1:hover > div.gl-1 > div.product-desc {
-    display: flex;
+.product-desc > h1, p {
+    margin: 0;
 }
 
 .product-desc > button {
-    align-self: flex-end;
-    justify-self: flex-end;
+}
+
+/* Hover grid */
+
+.galery-el:hover > img {
+    filter: blur(2px);
+}
+
+.gl-1:hover div.pd-1 {
+    display: flex;
+}
+
+.gl-2:hover div.pd-2 {
+    display: flex;
+}
+.gl-3:hover div.pd-3 {
+    display: flex;
+}
+.gl-4:hover div.pd-4 {
+    display: flex;
+}
+.gl-5:hover div.pd-5 {
+    display: flex;
+}
+.gl-6:hover div.pd-6 {
+    display: flex;
+}
+.gl-7:hover div.pd-7 {
+    display: flex;
+}
+.gl-8:hover div.pd-8 {
+    display: flex;
+}
+.gl-9:hover div.pd-9 {
+    display: flex;
 }
 
 /* About Section */
